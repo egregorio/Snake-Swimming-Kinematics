@@ -1,7 +1,13 @@
-# Snake-Swimming-Kinematics
-The code in this repository is associated with the paper Gregorio et al (2026) and can be used with the associated published data reproduce the figures. It calculates moment of inertia, distance and angle between head and tail along with a few other values from clean images of snakes.
+# ReadMe for: Snake-Swimming-Kinematics
 
-## Where to find the data
+This repository contains the python code and Jupyter notebooks to reproduce the kinematics figures and calculations
+in Gregorio et al 2026 (https://doi.org/10.1103/c57h-kx57).
+
+## Data Repository
+
+You can find the data repository associated with this code here:
+
+Gregorio, Elizabeth; Godoy-Diana, Ramiro; Herrel, Anthony, 2026, "Swimming kinematics and volumetric wake measurements for Natrix maura and Nerodia rhombifer", https://doi.org/10.48579/PRO/5Q27ST, data.InDoRES
 
 ## Citation
 
@@ -12,3 +18,19 @@ Gregorio, E., Godoy-Diana, R., & Herrel, A. (2026). Turning without fins: quanti
 ## Contact
 
 Elizabeth Gregorio: elizabeth.gregorio@espci.fr
+
+## Files
+	
+- **`MOI-STRAIGHT-withHDF5.ipynb`** — a Jupyter notebook to reproduce figures of forward swimming sequences and calculate associated statistics used in `MOI-Turn-withHDF5.ipynb`
+
+- **`MOI-Turn-withHDF5.ipynb`** — a Jupyter notebook to reproduce figures of turning sequences
+
+- **`utils/snakeFunctions.py`** — python functions to find the snake in the image with thresholding, find endpoints of the skeleton, put the skeleton points in order, and smooth the centerline.
+
+- **`utils/snakeMOI.py`** — python functions to calculate the moment of inertia and convert values from pixels to SI units.
+
+- **`utils/snakeWidth.py`** — python function to estimate the width of the snake at points along the centerline
+
+## License
+
+Licensed under the MIT License.
