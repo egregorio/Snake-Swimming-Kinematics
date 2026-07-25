@@ -33,7 +33,7 @@ Elizabeth Gregorio: elizabeth.gregorio@espci.fr
 
 ## Funding
 
-This work is funded by the Agence Nationale de la Recherche (France) through project DRAGON2 (ANR-20- CE02-0010).
+This work is funded by the Agence Nationale de la Recherche (France) through project DRAGON2 (ANR-20-CE02-0010).
 
 ## License
 
