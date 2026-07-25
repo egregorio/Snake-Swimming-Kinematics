@@ -31,6 +31,10 @@ Elizabeth Gregorio: elizabeth.gregorio@espci.fr
 
 - **`utils/snakeWidth.py`** — python function to estimate the width of the snake at points along the centerline
 
+## Funding
+
+This work is funded by the Agence Nationale de la Recherche (France) through project DRAGON2 (ANR-20- CE02-0010).
+
 ## License
 
 Licensed under the MIT License.
